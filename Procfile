@@ -1,1 +1,1 @@
-web: gunicorn kirr.wsgi --log-file -
+web: gunicorn Kirr.wsgi --log-file -

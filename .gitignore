@@ -1,5 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
-
+Kirr/db.sqlite3
 Kirr/settings/local.py
 .DS_Store
 .idea/workspace.xml
