@@ -26,7 +26,7 @@ SECRET_KEY = 'thv!l!^!cj=xo7j7vy@6-lrum_r1)5q_)d1a0to4q!j^=umr0%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.kirr.co', '.kirr.com', "kirr-shorten.herokuapp.com"]
+ALLOWED_HOSTS = ["kirr-shorten.herokuapp.com"]
 
 
 # Application definition
@@ -61,8 +61,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'Kirr.urls'
 ROOT_HOSTCONF = 'Kirr.hosts'
 DEFAULT_HOST = 'www'
-DEFAULT_REDIRECT_URL = "http://www.kirr.co:5000"
-PARENT_HOST = "kirr.co"
+DEFAULT_REDIRECT_URL = "http://kirr-shorten.herokuapp.com"
+PARENT_HOST = "kirr-shorten.herokuapp.com"
 
 TEMPLATES = [
     {
